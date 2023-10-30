@@ -20,7 +20,7 @@
 #include "sha3/sph_gost.h"
 #include "Lyra2.h"
 
-#include "common.h"
+#include "unistd.h"
 
 void Rwahash_hash(const char* input, char* output, uint32_t len)
 {
